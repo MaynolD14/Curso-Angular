@@ -1,0 +1,13 @@
+
+<h1>CALCULADORA</h1>
+<input type="number" [(ngModel)]="number1">
+<input type="number" [(ngModel)]="number2">
+<button type="button" (click)="Sumar()">Sumar</button>
+<p>El resultado es: {{resultado}}</p>
+
+<!--Hacerlo como lo hace Boris-->
+<h1>CALCULADORA</h1>
+<input type="number" (keyup)="PrimerNumero($event)">
+<input type="number" (keyup)="SegundoNumero($event)">
+<button type="button" (click)="Sumar()">Sumar</button>
+<p>El resultado es: {{resultado}}</p>
