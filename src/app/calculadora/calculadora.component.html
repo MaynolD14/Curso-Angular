@@ -1,13 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <div class="cuadroPrincipal">
+           <div class="pantalla"></div>
+           <button class="borrarPantalla">Delete</button>
+           <div class="numFila1">
+                <button class="num7">7</button>
+                <button class="num8">8</button>
+                <button class="num9">9</button>
+           </div>
+           <div class="numFila2">
+               <button class="num4">4</button>
+               <button class="num5">5</button>
+               <button class="num6">6</button>
+           </div>
 
-<h1>CALCULADORA</h1>
-<input type="number" [(ngModel)]="number1">
-<input type="number" [(ngModel)]="number2">
-<button type="button" (click)="Sumar()">Sumar</button>
-<p>El resultado es: {{resultado}}</p>
-
-<!--Hacerlo como lo hace Boris-->
-<h1>CALCULADORA</h1>
-<input type="number" (keyup)="PrimerNumero($event)">
-<input type="number" (keyup)="SegundoNumero($event)">
-<button type="button" (click)="Sumar()">Sumar</button>
-<p>El resultado es: {{resultado}}</p>
+           <div class="numFila3">
+               <button class="num1">1</button>
+               <button class="num2">2</button>
+               <button class="num3">3</button>
+           </div>
+           <div class="numFila4">
+               <button class="num0">0</button>
+               <button class="punto">.</button>
+           </div>
+           <div class="operaciones">
+               <button class="dividir">/</button>
+               <button class="multiplicar">X</button>
+               <button class="restar">-</button>
+               <button class="sumar">+</button>
+               <button class="igual">=</button>
+           </div>
+        </div>
+    </main>
+    
+</body>
+</html>

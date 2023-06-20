@@ -1,3 +1,199 @@
-body{
-    background-color: black;
+.cuadroPrincipal{
+    width: 250px; 
+    height: 340px; 
+    border: 2px solid black; 
+    border-radius: 5%;
+    background-color: rgb(105, 105, 150) !important;
+}
+
+.pantalla{
+    margin: 8px;
+    width: 230px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 5%;
+    background-color: lightgray;
+}
+
+.borrarPantalla{
+    margin-left: 8px;
+    padding-right: 130px;
+    width: 40px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 10%;
+}
+
+.numFila1{
+    display: flex;
+    flex-direction: row;
+}
+.num7{
+    margin-left: 8px;
+    margin-top: 10px;
+    width: 40px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 10%;
+}
+
+.num8{
+    margin-left: 8px;
+    margin-top: 10px;
+    width: 40px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 10%;
+}
+
+.num9{
+    margin-left: 8px;
+    margin-top: 10px;
+    width: 40px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 10%;
+}
+
+.numFila2{
+    display: flex;
+    flex-direction: row;
+}
+.num4{
+    margin-left: 8px;
+    margin-top: 10px;
+    width: 40px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 10%;
+}
+
+.num5{
+    margin-left: 8px;
+    margin-top: 10px;
+    width: 40px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 10%;
+}
+
+.num6{
+    margin-left: 8px;
+    margin-top: 10px;
+    width: 40px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 10%;
+}
+
+.numFila3{
+    display: flex;
+    flex-direction: row;
+}
+.num1{
+    margin-left: 8px;
+    margin-top: 10px;
+    width: 40px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 10%;
+}
+
+.num2{
+    margin-left: 8px;
+    margin-top: 10px;
+    width: 40px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 10%;
+}
+
+.num3{
+    margin-left: 8px;
+    margin-top: 10px;
+    width: 40px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 10%;
+}
+
+.numFila4{
+    display: flex;
+    flex-direction: row;
+}
+
+.num0{
+    margin-left: 8px;
+    margin-top: 10px;
+    width: 65px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 10%;
+}
+
+.punto{
+    margin-left: 8px;
+    margin-top: 10px;
+    width: 65px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 10%;
+}
+
+.operaciones{
+    display: flex;
+    justify-content: end;
+}
+
+.dividir{
+    width: 65px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 10%;
+    margin-top: -96%;
+    margin-right: -65px;
+    
+}
+
+.multiplicar{
+    width: 65px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 10%;
+    margin-top: -76%;
+    margin-right: -65px;
+}
+
+.restar{
+    width: 65px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 10%;
+    margin-top: -56%;
+    margin-right: -65px;
+}
+
+.sumar{
+    width: 65px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 10%;
+    margin-top: -36%;
+    margin-right: -65px;
+}
+
+.igual{
+    width: 65px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 10%;
+    margin-top: -16%;
+    margin-right: 10px;
+}
+main{
+    margin-top: 150px;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
